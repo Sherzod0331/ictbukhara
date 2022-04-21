@@ -31,6 +31,10 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   overflow-x: hidden;
 }
 
@@ -427,6 +431,7 @@ body #begin .container #Courses .Courses .Course {
   -webkit-box-shadow: 1px 7px 20px rgba(45, 37, 80, 0.07);
           box-shadow: 1px 7px 20px rgba(45, 37, 80, 0.07);
   border-radius: 24px;
+  position: relative;
 }
 
 body #begin .container #Courses .Courses .Course .img {
@@ -461,17 +466,20 @@ body #begin .container #Courses .Courses .Course h3 {
 }
 
 body #begin .container #Courses .Courses .Course .user {
-  margin-top: 63px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  position: absolute;
+  bottom: 18px;
+  left: 5px;
 }
 
 body #begin .container #Courses .Courses .Course .user img {
   margin: 0 12px;
+  width: 24px;
 }
 
 body #begin .container #Courses .Courses .Course .user h5 {
@@ -940,7 +948,8 @@ body #modal_h #kurs_haqida h3 {
 body #modal_r {
   width: 100vw;
   height: 100vh;
-  position: fixed;
+  position: -webkit-sticky;
+  position: sticky;
   top: 0;
   left: 0;
   right: 0;
@@ -957,7 +966,7 @@ body #modal_r {
 }
 
 body #modal_r #kurs_reg {
-  position: fixed;
+  position: relative;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: auto auto;

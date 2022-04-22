@@ -314,9 +314,12 @@
               <p>Ushbu kursni o‘rganmoqchi yoki kurs haqida batafsil ma’lumot olmoqchi bo‘lsangiz quyidagilarni to‘ldiring. Tezda aloqaga chiqamiz!</p>
         
               <input type="text" name="" id="" placeholder="To‘liq ism familiyangiz">
-              <input type="text" name="" id="" placeholder="Telefon raqamingiz">
+              <div class="phone">
+                    <h4>+998</h4>
+                    <input type="text" name="" minlength="9" maxlength="9" id="phone" placeholder="Telefon raqamingiz" value="" onkeyup="formatPhoneNumber(this.value)">
+              </div>
         
-              <a href="#">Yuborish</a>
+              <a href="#" onclick="drop_toggle(5)">Yuborish</a>
             </div>
         
             <ion-icon onclick="drop_toggle(1)" name="close-outline"></ion-icon>
@@ -332,7 +335,18 @@
               <img src="./img/tastqilandi.png" alt="g">
             </div>
             <h3 onclick="drop_toggle(4)">Asosiy oynaga qaytish</h3>
-          </div>
+        </div>
+    </div>
+
+    <div id="modal_t_x" style="display: none;">
+        <div id="tasdiq">
+            <h1>Arizangiz yuborilmadi!</h1>
+            <p><b>XX</b> shu yerda xatolik bor</p>
+            <div class="img">
+              <img src="./img/tastqilanmadi.png" alt="g">
+            </div>
+            <h3 onclick="drop_toggle(4)">Asosiy oynaga qaytish</h3>
+        </div>
     </div>
 
     <script src="./JS/main.js"></script>

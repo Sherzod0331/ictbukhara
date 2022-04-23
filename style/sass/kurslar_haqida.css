@@ -117,6 +117,10 @@
   border: #2DDC90 1px solid;
 }
 
+#begin .container .kurslar {
+  margin-bottom: 510px;
+}
+
 #begin .container .kurslar h1 {
   font-family: var(--fonts);
   font-style: normal;
@@ -125,6 +129,36 @@
   line-height: 34px;
   /* identical to box height */
   color: #2D2550;
+}
+
+#begin .container .kurslar a {
+  margin-bottom: 48px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 200px;
+  height: 54px;
+  background: #2DDC90;
+  border-radius: 7px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+#begin .container .kurslar a:hover {
+  background: none;
+  color: #2DDC90;
+  border: #2DDC90 1px solid;
 }
 
 #begin .container .kurslar .Course {

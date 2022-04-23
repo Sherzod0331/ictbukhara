@@ -124,6 +124,7 @@
         }
 
         .kurslar {
+            margin-bottom: 510px;
             h1 {
                 font-family: var(--fonts);
                 font-style: normal;
@@ -134,6 +135,35 @@
                 
                 
                 color: #2D2550;
+
+            }
+
+            a {
+                // margin-top: 56px;
+                margin-bottom: 48px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+    
+                width: 200px;
+                height: 54px;
+                background: #2DDC90;
+                border-radius: 7px;
+    
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 19px;
+    
+                color: #FFFFFF;
+                cursor: pointer;
+    
+                &:hover {
+                   background: none;
+                   color: #2DDC90;
+                   border: #2DDC90 1px solid;
+                }
 
             }
 

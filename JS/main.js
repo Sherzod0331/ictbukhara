@@ -23,6 +23,8 @@
 //     })
 // });
 
+
+
 function drop_toggle(a) {
     // if (a==1) {
     //     document.querySelector("#modal_r").style.display = "none"
@@ -111,4 +113,19 @@ let formatPhoneNumber = (str) => {
     }
     
     return null;
-  }
+}
+
+
+// var widthWindow = window.innerWidth;
+
+// window.onresize = () => {
+//     widthWindow = window.innerWidth;
+//     if (widthWindow > 670) {
+//         document.querySelector(".ul_menu").style.display = "flex";
+//         // document.querySelector(".yop").style.display = "block";
+//     } 
+//     // else {
+//     //     document.querySelector(".ul_menu").style.display = "none";
+//     //     document.querySelector(".yop").style.display = "none";
+//     // }
+// }

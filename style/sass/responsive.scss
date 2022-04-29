@@ -248,7 +248,7 @@
     body #begin .container #Courses .Courses .Course {
         margin: 5px !important;
         width: 208px !important;
-        height: 270px !important;
+        height: 300px !important;
     }
 
     body #begin .container #Courses .Courses .Course .user {
@@ -289,27 +289,25 @@
     }
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 410px) {
     body #begin .container #Courses .Courses {
         grid-template-columns: auto !important;
 
         .Course {
-            margin-bottom: 5px;
-            &:nth-child(2) {
-                display: none !important;
-            }
-            &:nth-child(3) {
-                display: none !important;
-            }
-            &:nth-child(4) {
-                display: none !important;
-            }
-            &:nth-child(5) {
-                display: none !important;
-            }
-            &:nth-child(6) {
-                display: none !important;
-            }
+            margin-bottom: 15px !important;
+
+            // &:nth-child(5) {
+            //     display: none !important;
+            // }
+            // &:nth-child(6) {
+            //     display: none !important;
+            // }
+            // &:nth-child(7) {
+            //     display: none !important;
+            // }
+            // &:nth-child(8) {
+            //     display: none !important;
+            // }
         }
     }
 
@@ -344,6 +342,7 @@
         height: auto !important;
     }
 }
+
 @media screen and (max-width: 342px) {
     body #begin .container #about .video a img {
         width: 290px !important;

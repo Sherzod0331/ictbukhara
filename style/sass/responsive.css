@@ -242,7 +242,7 @@
   body #begin .container #Courses .Courses .Course {
     margin: 5px !important;
     width: 208px !important;
-    height: 270px !important;
+    height: 300px !important;
   }
   body #begin .container #Courses .Courses .Course .user {
     margin-top: 20px !important;
@@ -278,28 +278,13 @@
   }
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 410px) {
   body #begin .container #Courses .Courses {
     -ms-grid-columns: auto !important;
         grid-template-columns: auto !important;
   }
   body #begin .container #Courses .Courses .Course {
-    margin-bottom: 5px;
-  }
-  body #begin .container #Courses .Courses .Course:nth-child(2) {
-    display: none !important;
-  }
-  body #begin .container #Courses .Courses .Course:nth-child(3) {
-    display: none !important;
-  }
-  body #begin .container #Courses .Courses .Course:nth-child(4) {
-    display: none !important;
-  }
-  body #begin .container #Courses .Courses .Course:nth-child(5) {
-    display: none !important;
-  }
-  body #begin .container #Courses .Courses .Course:nth-child(6) {
-    display: none !important;
+    margin-bottom: 15px !important;
   }
   body #begin .container #Courses h2 {
     font-size: 18px !important;

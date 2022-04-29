@@ -1,6 +1,6 @@
 @media screen and (max-width: 500px) {
     body #begin .container .Courses .Course .img {
-        height: auto !important;
+        height: 130px !important;
     }
   
     body #begin .container .Courses .Course {
@@ -25,6 +25,14 @@
     body #begin .container .Courses {
         margin-bottom: 725px !important;
     }
+
+    body #begin .container .Courses .Course h3 {
+        font-size: 18px !important;
+    }
+
+    body #begin .container .Courses .Course .user h5 {
+        font-size: 12px !important;
+    }
 }
 @media screen and (max-width: 400px) {
     body #begin .container .Courses .Course h3 {
@@ -32,20 +40,12 @@
         margin-left: 10px !important;
     }
 
-    body #begin .container .Courses .Course h3 {
-        font-size: 20px !important;
-    }
-
-    body #begin .container .Courses .Course .user h5 {
-        font-size: 14px !important;
-    }
-
     body #begin .container .Courses .Course .user img {
         margin: 0px 5px !important;
     }
 
     body #begin .container .Courses .Course {
-        width: 150px !important;
+        width: 175px !important;
         height: 200px !important;
     }
 
@@ -56,6 +56,10 @@
 
     body #begin .container #img h1 {
         font-size: 35px !important;
+    }
+
+    body #begin .container .Courses {
+        grid-template-columns: auto !important;
     }
 }
 @media screen and (max-width: 350px) {

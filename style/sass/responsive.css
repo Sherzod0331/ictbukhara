@@ -31,8 +31,7 @@
     margin-bottom: 10px !important;
   }
   body #begin .container #Courses .Courses {
-    -ms-grid-columns: auto auto auto !important;
-        grid-template-columns: auto auto auto !important;
+    grid-template-columns: auto auto auto !important;
   }
   body #begin .container {
     width: 90% !important;
@@ -41,13 +40,11 @@
     width: 100vw !important;
   }
 }
-
 @media screen and (max-width: 1160px) {
   body #begin .container #about .text {
     width: 87% !important;
   }
 }
-
 @media screen and (max-width: 980px) {
   body #begin #menu ul li a {
     margin: 0 20px !important;
@@ -59,44 +56,28 @@
     margin-left: 30px !important;
   }
   body #begin .container #Courses .Courses {
-    -ms-grid-columns: auto auto !important;
-        grid-template-columns: auto auto !important;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    grid-template-columns: auto auto !important;
+    align-items: center;
+    justify-content: center;
   }
   body #begin .container #about .video a img {
     width: 340px !important;
     height: auto !important;
   }
   body #begin .container #main {
-    -ms-grid-columns: auto !important;
-        grid-template-columns: auto !important;
+    grid-template-columns: auto !important;
   }
   body #begin .container #main .text {
     width: 510px !important;
   }
   body #begin .container #about {
-    -ms-grid-columns: auto !important;
-        grid-template-columns: auto !important;
+    grid-template-columns: auto !important;
   }
   body #begin .container #about .video {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
   }
   body #begin .container #about .video a img {
     width: 420px !important;
@@ -106,7 +87,6 @@
     margin-top: 20px !important;
   }
 }
-
 @media screen and (max-width: 840px) {
   body #begin #menu .phone {
     display: none !important;
@@ -122,49 +102,35 @@
     width: 100%;
   }
   #footer > div > div.footer_menu > div.menu {
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: auto auto auto;
-        grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto;
   }
-  body #begin .container #footer .footer_menu {
-    -webkit-box-align: center !important;
-        -ms-flex-align: center !important;
-            align-items: center !important;
+  body #begin #footer .footer_menu {
+    align-items: center !important;
   }
-  body #begin .container #footer .footer_loc {
+  body #begin #footer .footer_loc {
     margin-top: 30px;
     margin-bottom: 30px;
-    -ms-grid-columns: auto !important;
-        grid-template-columns: auto !important;
-    -webkit-box-pack: center !important;
-        -ms-flex-pack: center !important;
-            justify-content: center !important;
-    -webkit-box-align: center !important;
-        -ms-flex-align: center !important;
-            align-items: center !important;
+    grid-template-columns: auto !important;
+    justify-content: center !important;
+    align-items: center !important;
   }
-  body #begin .container #footer {
+  body #begin #footer {
     height: auto !important;
   }
   body #begin .container #Mentors {
     margin-bottom: 650px !important;
   }
 }
-
 @media screen and (max-width: 670px) {
   body #begin #menu ul {
     display: none;
   }
   body #begin #menu {
-    -webkit-box-pack: justify !important;
-        -ms-flex-pack: justify !important;
-            justify-content: space-between !important;
+    justify-content: space-between !important;
     padding: 0 20px;
   }
   body #begin #menu .menu_icons {
-    display: -webkit-box !important;
-    display: -ms-flexbox !important;
     display: flex !important;
   }
   body #begin #menu .menu_icons ion-icon {
@@ -173,19 +139,12 @@
     cursor: pointer;
   }
   body #begin #menu .menu_icons ion-icon:hover {
-    color: #0244f8;
+    color: rgb(2, 68, 248);
   }
   body #begin #menu ul {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     position: absolute;
     background: #2D2550;
     width: 100vw;
@@ -199,7 +158,6 @@
     margin: 20px 0;
   }
 }
-
 @media screen and (max-width: 610px) {
   body #begin .container #Courses .Courses .Course {
     margin: 24px;
@@ -217,18 +175,15 @@
     margin-top: 30px !important;
   }
 }
-
 @media screen and (max-width: 550px) {
   #footer > div > div.footer_menu > div.menu {
-    -ms-grid-columns: auto auto !important;
-        grid-template-columns: auto auto !important;
+    grid-template-columns: auto auto !important;
   }
-  body #begin .container #footer .footer_menu .menu a {
+  body #begin #footer .footer_menu .menu a {
     margin-right: 45px !important;
     margin-bottom: 10px;
   }
 }
-
 @media screen and (max-width: 500px) {
   body #begin .container #main .text {
     width: 380px !important;
@@ -241,14 +196,19 @@
   }
   body #begin .container #Courses .Courses .Course {
     margin: 5px !important;
-    width: 208px !important;
+    width: 190px !important;
     height: 300px !important;
   }
   body #begin .container #Courses .Courses .Course .user {
     margin-top: 20px !important;
   }
+  body #begin .container #Courses .Courses .Course h3 {
+    font-size: 19px !important;
+  }
+  body #begin .container #Courses .Courses .Course .user h5 {
+    font-size: 13px !important;
+  }
 }
-
 @media screen and (max-width: 420px) {
   body #begin .container #about .video a img {
     width: 362px !important;
@@ -264,24 +224,20 @@
   body #begin .container #Courses .sah {
     margin-bottom: 10px;
   }
-  body #begin .container #footer .footer_loc #icons .d-f {
-    display: -ms-grid !important;
+  body #begin #footer .footer_loc #icons .d-f {
     display: grid !important;
-    -ms-grid-columns: auto auto auto;
-        grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto;
   }
   body #begin .container #Mentors {
     margin-bottom: 715px !important;
   }
-  body #begin .container #footer .footer_loc #icons .d-f .d-f:nth-child(2) {
+  body #begin #footer .footer_loc #icons .d-f .d-f:nth-child(2) {
     margin-left: 29px !important;
   }
 }
-
 @media screen and (max-width: 410px) {
   body #begin .container #Courses .Courses {
-    -ms-grid-columns: auto !important;
-        grid-template-columns: auto !important;
+    grid-template-columns: auto !important;
   }
   body #begin .container #Courses .Courses .Course {
     margin-bottom: 15px !important;
@@ -296,7 +252,7 @@
     -ms-grid-columns: auto auto !important;
     grid-template-columns: auto !important;
   }
-  body #begin .container #footer .footer_menu {
+  body #begin #footer .footer_menu {
     margin-bottom: 17px !important;
     height: 100px !important;
   }
@@ -311,7 +267,6 @@
     height: auto !important;
   }
 }
-
 @media screen and (max-width: 342px) {
   body #begin .container #about .video a img {
     width: 290px !important;
@@ -319,5 +274,4 @@
   body #begin .container #main .text {
     width: 295px !important;
   }
-}
-/*# sourceMappingURL=responsive.css.map */
+}/*# sourceMappingURL=responsive.css.map */

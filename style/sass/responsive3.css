@@ -6,30 +6,22 @@
     width: 100% !important;
   }
 }
-
 @media screen and (max-width: 720px) {
   #begin .container .haqida .dav .img {
     width: 170px !important;
     height: 170px !important;
   }
 }
-
 @media screen and (max-width: 660px) {
   #begin .container .haqida .dav {
-    -ms-grid-columns: auto !important;
-        grid-template-columns: auto !important;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    grid-template-columns: auto !important;
+    align-items: center;
+    justify-content: center;
   }
   #begin .container .haqida .dav .text {
     margin-left: 0 !important;
   }
 }
-
 @media screen and (max-width: 660px) {
   #begin .container .haqida h2 {
     font-size: 20px !important;
@@ -56,14 +48,12 @@
     font-size: 16px !important;
   }
 }
-
 @media screen and (max-width: 1140px) {
   body #modal_r #kurs_reg {
     width: 960px !important;
     height: 540px !important;
   }
 }
-
 @media screen and (max-width: 990px) {
   body #modal_r #kurs_reg .img {
     margin-right: 20px !important;
@@ -73,7 +63,6 @@
     height: 460px !important;
   }
 }
-
 @media screen and (max-width: 900px) {
   body #modal_r #kurs_reg .img {
     width: 300px !important;
@@ -106,11 +95,9 @@
     right: 20px !important;
   }
 }
-
 @media screen and (max-width: 720px) {
   body #modal_r #kurs_reg {
-    -ms-grid-columns: auto !important;
-        grid-template-columns: auto !important;
+    grid-template-columns: auto !important;
   }
   body #modal_r #kurs_reg .img {
     display: none;
@@ -120,7 +107,6 @@
     height: 470px !important;
   }
 }
-
 @media screen and (max-width: 400px) {
   body #modal_r #kurs_reg {
     width: 330px !important;
@@ -136,32 +122,12 @@
     height: 40px !important;
   }
 }
-
 @media screen and (max-width: 600px) {
   body .modal_res #tasdiq {
     width: 430px !important;
     height: 530px !important;
   }
 }
-
-@media screen and (max-width: 840px) {
-  #begin .container .kurslar {
-    margin-bottom: 670px !important;
-  }
-}
-
-@media screen and (max-width: 420px) {
-  #begin .container .kurslar {
-    margin-bottom: 720px !important;
-  }
-}
-
-@media screen and (max-width: 390px) {
-  #begin .container .kurslar {
-    margin-bottom: 740px !important;
-  }
-}
-
 @media screen and (max-width: 480px) {
   body .modal_res #tasdiq {
     width: 430px !important;
@@ -187,11 +153,9 @@
     height: 430px !important;
   }
 }
-
 @media screen and (max-width: 400px) {
   body .modal_res #tasdiq {
     width: 310px !important;
     height: 430px !important;
   }
-}
-/*# sourceMappingURL=responsive3.css.map */
+}/*# sourceMappingURL=responsive3.css.map */

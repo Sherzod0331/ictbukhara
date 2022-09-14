@@ -135,11 +135,11 @@
         grid-template-columns: auto auto auto;
     }
 
-    body #begin .container #footer .footer_menu {
+    body #begin #footer .footer_menu {
         align-items: center !important;
     }
 
-    body #begin .container #footer .footer_loc {
+    body #begin  #footer .footer_loc {
         margin-top: 30px;
         margin-bottom: 30px;
         grid-template-columns: auto !important;
@@ -147,7 +147,7 @@
         align-items: center !important;
     }
 
-    body #begin .container #footer {
+    body #begin  #footer {
         height: auto !important;
     }
 
@@ -226,7 +226,7 @@
         grid-template-columns: auto auto !important;
     }
 
-    body #begin .container #footer .footer_menu .menu a {
+    body #begin #footer .footer_menu .menu a {
         margin-right: 45px !important;
         margin-bottom: 10px;
     }
@@ -247,12 +247,20 @@
 
     body #begin .container #Courses .Courses .Course {
         margin: 5px !important;
-        width: 208px !important;
+        width: 190px !important;
         height: 300px !important;
     }
 
     body #begin .container #Courses .Courses .Course .user {
         margin-top: 20px !important;
+    }
+
+    body #begin .container #Courses .Courses .Course h3 {
+        font-size: 19px !important;
+    }
+
+    body #begin .container #Courses .Courses .Course .user h5 {
+        font-size: 13px !important;
     }
 }
 
@@ -275,7 +283,7 @@
         margin-bottom: 10px;
     }
 
-    body #begin .container #footer .footer_loc #icons .d-f {
+    body #begin #footer .footer_loc #icons .d-f {
         display: grid !important;
         grid-template-columns: auto auto auto;
     }
@@ -284,7 +292,7 @@
         margin-bottom: 715px !important;
     }
 
-    body #begin .container #footer .footer_loc #icons .d-f .d-f:nth-child(2) {
+    body #begin #footer .footer_loc #icons .d-f .d-f:nth-child(2) {
         margin-left: 29px !important;
     }
 }
@@ -324,7 +332,7 @@
         grid-template-columns: auto !important;
     }
 
-    body #begin .container #footer .footer_menu {
+    body #begin #footer .footer_menu {
         margin-bottom: 17px !important;
         height: 100px !important;
     }

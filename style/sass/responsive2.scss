@@ -45,7 +45,7 @@
 @media screen and (max-width: 1090px) {
     body #begin .container .Courses {
         grid-template-columns: auto auto auto !important;
-        margin-bottom: 680px !important;
+        // margin-bottom: 680px !important;
     }
 
     body #begin .container #img {
@@ -98,9 +98,9 @@
         background: #000;
     }
 
-    body #begin .container .Courses {
-        margin-bottom: 720px !important;
-    }
+    // body #begin .container .Courses {
+    //     margin-bottom: 720px !important;
+    // }
 }
 
 // @media screen and (max-width: 500px) {

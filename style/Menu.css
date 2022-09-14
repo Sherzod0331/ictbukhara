@@ -10,8 +10,7 @@
 *,
 *:before,
 *:after {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 a {
@@ -49,7 +48,6 @@ body {
   border-radius: 5px;
   text-align: center;
 }
-
 .button svg {
   display: inline-block;
   vertical-align: middle;
@@ -57,11 +55,9 @@ body {
   height: 24px;
   fill: #fff;
 }
-
 .button span {
   display: none;
 }
-
 @media (min-width: 600px) {
   .button span {
     display: initial;
@@ -71,5 +67,4 @@ body {
 .button--icon {
   min-width: initial;
   padding: 0.5rem;
-}
-/*# sourceMappingURL=Menu.css.map */
+}/*# sourceMappingURL=Menu.css.map */
